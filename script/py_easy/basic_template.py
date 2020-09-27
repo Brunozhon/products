@@ -7,11 +7,11 @@ def count(num):
   return range(num + 1)
 
 def printForrmated(text, format):
-  if format = "curly brackets":
+  if format = "curved brackets":
     print("(" + text + ")")
   elif format = "square brakets":
     print("[" + text + "]")
-  elif format = "object brakets":
+  elif format = "curly brakets":
     print("{" + text + "}")
   elif format = "double quotes":
     print('"' + text + '"')
