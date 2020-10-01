@@ -1,0 +1,5 @@
+# Let contributors use blank templates.
+# They can choose the option to use a 
+# blank template or use the predefined
+# ones.
+blank_issues_enabled: true
