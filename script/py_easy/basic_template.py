@@ -7,15 +7,15 @@ def count(num):
   return range(num + 1)
 
 def printForrmated(text, format):
-  if format = "curved brackets":
+  if format.lower() == "curved brackets":
     print("(" + text + ")")
-  elif format = "square brakets":
+  elif format.lower() == "square brakets":
     print("[" + text + "]")
-  elif format = "curly brakets":
+  elif format.lower() == "curly brakets":
     print("{" + text + "}")
-  elif format = "double quotes":
+  elif format.lower() == "double quotes":
     print('"' + text + '"')
-  elif format = "single quotes":
+  elif format.lower() == "single quotes":
     print("'" + text + "'")
   else:
     print(text)

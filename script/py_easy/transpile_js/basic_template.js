@@ -10,18 +10,18 @@ function count(num) {
 }
 function returnForrmated(text, format) {
   var i;
-  if (format = "curved brackets") {
+  if (format == "curved brackets") {
     i = "(" + text + ")";
-  } else if (format = "square brackets") {
+  } else if (format == "square brackets") {
     i = "[" + text + "]";
-  } else if (format = "curly brackets") {
+  } else if (format == "curly brackets") {
     i = "{" + text + "}";
-  } else if (format = "double quotes") {
+  } else if (format == "double quotes") {
     i = '"' + text + '"';
-  } else if (format = "single quotes") {
+  } else if (format == "single quotes") {
     i = "'" + text + "'";
   } else {
     i = text;
   }
-  return text;
+  return i;
 }
