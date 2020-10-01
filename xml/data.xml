@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://brunozhon.github.io" xmlns="https://brunozhon.github.io" elementFormDefault="qualifted">
+  <!-- Define elements: -->
+  <xs:element name="string" type="xs:string" />
+  <xs:element name="decimal" type="xs:decimal" />
+  <xs:element name="integer" type="xs:decimal" />
+  <xs:element name="boolean" type="xs:boolean" />
+  <xs:element name="text" type="xs:text" />
+  <xs:element name="anyType" />
+  <!-- Define types: -->
+  <xs:simpleType name="charecter">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]([a-z])+ [A-Z]([a-z])+" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
