@@ -10,7 +10,7 @@ function count(num) {
 }
 function returnForrmated(text, format) {
   var i;
-  text = text.toLowerCase();
+  format = format.toLowerCase();
   if (format == "curved brackets") {
     i = "(" + text + ")";
   } else if (format == "square brackets") {
